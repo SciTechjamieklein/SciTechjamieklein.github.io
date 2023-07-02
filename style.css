@@ -1,0 +1,46 @@
+@keyframes yippee {
+  0% {
+    background-color: blueviolet;
+    color: cyan;
+  }
+  25% {
+    background-color: blue;
+    color: white;
+  }
+  50% {
+    background-color: navy;
+    color: white;
+  }
+  75% {
+    background-color: blue;
+    color: white;
+  }
+  100% {
+    background-color: blueviolet;
+    color: cyan;
+  }
+}
+body {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: yippee;
+  animation-iteration-count: infinite;
+  animation-duration: 60s;
+  color: white;
+  font-family: monospace;
+}
+bio {
+  font-size: 100%;
+}
+button {
+  color: cyan;
+  padding: 0.5%;
+  font-size: 95%;
+  background: rgba(100, 100, 100, 0.5);
+}
+footer {
+  margin-top: 100%;
+  background: rgba(100, 100, 100, 0.5);
+}
